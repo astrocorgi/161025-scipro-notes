@@ -5,7 +5,7 @@ integer, parameter :: n = 200
 real :: x
 real, dimension(n) :: y
 
-x = 0;
+x = 0
 i=2;
 x = change(i)
 
