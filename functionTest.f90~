@@ -1,3 +1,16 @@
+program functionTest
+
+integer :: i
+integer, parameter :: n = 200
+real :: x
+real, dimension(n) :: y
+
+x = 0
+i=2;
+x = change(i)
+
+print *, x, i
+
 module testing
 contains
 real function change(j)
@@ -14,21 +27,6 @@ print *, "hello"
 end function hello
 
 end module
-
-program functionTest
-
-integer :: i
-integer, parameter :: n = 200
-real :: x
-real, dimension(n) :: y
-
-x = 0
-i=2;
-x = change(i)
-
-print *, x, i
-
-
 
 end program
 !! here's a random comment
