@@ -1,5 +1,9 @@
 program functionTest
+<<<<<<< HEAD
 !! this is a function test program
+=======
+
+>>>>>>> scipro
 integer :: i
 integer, parameter :: n = 200
 real :: x
@@ -11,11 +15,30 @@ x = change(i)
 
 print *, x, i
 
+<<<<<<< HEAD
 end program
 
+=======
+module testing
+contains
+>>>>>>> scipro
 real function change(j)
 integer :: j
 real :: q
 
 j = 5;
 change = 6;
+<<<<<<< HEAD
+=======
+end function change
+
+private hello()
+print *, "hello"
+
+end function hello
+
+end module
+
+end program
+!! here's a random comment
+>>>>>>> scipro
