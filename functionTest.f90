@@ -1,3 +1,20 @@
+module testing
+contains
+real function change(j)
+integer :: j
+real :: q
+
+j = 5;
+change = 6;
+end function change
+
+private hello()
+print *, "hello"
+
+end function hello
+
+end module
+
 program functionTest
 
 integer :: i
@@ -11,12 +28,7 @@ x = change(i)
 
 print *, x, i
 
+
+
 end program
-
-real function change(j)
-integer :: j
-real :: q
-
-j = 5;
-change = 6;
 !! here's a random comment
