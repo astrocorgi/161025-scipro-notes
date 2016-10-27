@@ -1,0 +1,18 @@
+module addInterface
+  implicit none
+  
+  interface add
+     function add_int(i,j)
+       integer :: i,j
+       integer :: add_int
+
+       add_int = i+j
+     end function add_int
+  end interface add
+end module addInterface
+
+program addDemo
+
+  implicit none
+
+end program addDemo
