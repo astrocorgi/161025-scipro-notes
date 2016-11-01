@@ -1,0 +1,3 @@
+value of x:-5 value of x: 6 value of x: 8
+value of x:-5 value of x: 6 value of x: 8
+value of x:-5 value of x: 6 value of x: 8
