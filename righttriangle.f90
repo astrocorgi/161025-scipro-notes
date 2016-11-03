@@ -1,0 +1,30 @@
+module RightTriangle
+  real, parameter :: pi = 3.14159
+  type triangle
+     real :: a, b, c, hypotenuse, angle_a, angle_b, angle_c, area
+  end type triangle
+  
+contains
+  subroutine setSides(r,a,b,c)
+    type(triangle) :: r
+    r%a = a
+    r%b = b
+    r%c = c
+  end subroutine setSides
+  
+  subroutine findHypotenuse(r)
+    type(triangle) :: r
+    hypotenuse =  sqrt(r%a**2+r%b**2)
+    angle_a = atan(r%a/r%b)*180/pi
+    angle_b = atan(r%b/r%a)*180/pi
+    angle_c = 90
+    print *, 'The hypotenuse is length ',hypotenuse, '. Angle a = ', angle_a, '. Angle b = ', angle_b, '. Angle c = ', angle_c
+  end subroutine findHypotenuse
+
+  subroutine findArea(r)
+    type(triangle) :: r
+    area = (r%a*r%b)/2
+    print *, 'The sides of your triangle are a = ', r%a, ' b = ', r%b, ' c = ', r%c, '. The area is ', area
+  end subroutine findArea
+  
+end module RightTriangle
