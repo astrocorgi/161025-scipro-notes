@@ -1,0 +1,12 @@
+program print_array
+  implicit none
+
+  integer, dimension(3) :: x = [-5, 6, 8]
+  character :: ch;
+  
+  open(unit=1, file='datax.txt',status = 'old',position='append') !how to read in a 
+
+  write(unit=1,fmt='(3("value of x:",i2,1x))')x
+  close(unit=1)
+  
+end program print_array
