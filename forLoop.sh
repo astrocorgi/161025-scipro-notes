@@ -1,0 +1,20 @@
+#!/bin/bash
+
+names='Rey Finn Poe Lac Hoon Luna'
+for name in $names
+do
+    echo $name
+done
+echo All done
+
+for value in {1..9}
+do
+    echo $value
+done
+echo All done
+
+for value in {10..0..2}
+do
+    echo $value
+done
+echo All done again
