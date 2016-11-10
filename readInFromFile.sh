@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo here is a summary of the sales report
+echo =============
+echo
+cat /dev/stdin | cut -d ' ' -f 2,3 | sort #d for delimited "f" for fields
