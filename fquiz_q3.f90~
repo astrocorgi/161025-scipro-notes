@@ -1,0 +1,10 @@
+program BigMatrix
+  real, dimension(100,100) :: realmat
+  integer, dimension(100,100) :: intmat
+
+  call random_number(realmat)
+  call random_number(intmat)
+  print *, realmat
+  print *,intmat
+
+end program BigMatrix

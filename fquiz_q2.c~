@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+  int n;
+  double x;
+  double a[10];
+  double b[10];
+  double c[10][10];
+  double d[10][10];
+
+  n=0;
+  
+  void _arrayHandle(int n,double x,double a,b,c,d);
+  
+	       
+
+  return 0;
+}
