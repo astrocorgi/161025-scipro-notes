@@ -1,0 +1,32 @@
+
+
+
+subroutine arrayHandle(n,x,a,b,c,d)
+  implicit none
+  real :: x
+  integer :: n
+  real, dimension(n) :: a,b
+  real, dimension(n,n) :: c,d
+
+  call random_number(x)
+  call random_number(a)
+  call random_number(b)
+  call random_number(c)
+  call random_number(d)
+
+  print *, "x is"
+  print *, x
+  print *, "a is"
+  print *, a
+  print *, "b is"
+  print *, b
+  print *, "c is"
+  print *, c
+  print *, "d is"
+  print *, d
+  
+end subroutine arrayHandle
+
+program arrays
+
+end program arrays
