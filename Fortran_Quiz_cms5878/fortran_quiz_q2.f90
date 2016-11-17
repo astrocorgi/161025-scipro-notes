@@ -33,12 +33,18 @@ program arrays
   call arrayGenerate(x,a,b,c,d)
   
   a=b
-  print *, 'a is now', a
+  print *, 'a is now b', a
 
   a(:) = x 
-  print *, 'a is now', a
+  print *, 'a elements now equal x', a
 
-  a(:) = c(1,4)
-  print *, 'a is now', a
+  a(:) = c(:,1)
+  print *, 'a is now the first row of c', a
+
+  a(2:4) = c(2:4,4)
+  print *, 'last three elements of a are now the last three elements of c', a
+
+  c=d
+  print *, 'c is now equal to d', c
   
 end program arrays
