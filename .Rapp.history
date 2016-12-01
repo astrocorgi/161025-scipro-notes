@@ -1,0 +1,169 @@
+read.table("/home/GitHub/scipro-notes/contourData.dat"))
+read.table("/home/GitHub/scipro-notes/contourData.dat")
+read.table("/home/GitHub/scipro-notes/contourData.dat")
+read.table("/home/GitHub/scipro-notes/contourData.dat")
+read.table("contourData.dat")
+pwd
+read.table("contourData.dat")
+library(plotly)
+matrix = read.table("contourData.dat")
+matrix
+plot(matrix)
+plot(matrix)
+par(mar = rep(2, 4))
+plot(matrix)
+image(matrix_)
+image(matrix)
+z = matrix
+z
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
+               y = seq(0, 1, length.out = ncol(z)),#
+               z,#
+               xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),#
+               levels = pretty(zlim, nlevels), nlevels = 20,#
+               color.palette = cm.colors,#
+               col = color.palette(length(levels) - 1),#
+               plot.title, plot.axes, key.title, key.axes,#
+               asp = NA, xaxs = "i", yaxs = "i", las = 1,#
+               axes = TRUE, frame.plot = axes, ...)#
+#
+.filled.contour(x, y, z, levels, col)
+z
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
+               y = seq(0, 1, length.out = ncol(z)),#
+               z,#
+               xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),#
+               levels = pretty(zlim, nlevels), nlevels = 20,#
+               color.palette = cm.colors,#
+               col = color.palette(length(levels) - 1),#
+               plot.title, plot.axes, key.title, key.axes,#
+               asp = NA, xaxs = "i", yaxs = "i", las = 1,#
+               axes = TRUE, frame.plot = axes, ...)#
+#
+.filled.contour(x, y, z, levels, col)
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
+               y = seq(0, 1, length.out = ncol(z)),#
+               z,#
+               xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),#
+               levels = pretty(zlim, nlevels), nlevels = 20,#
+               color.palette = cm.colors,#
+               col = color.palette(length(levels) - 1),#
+               plot.title, plot.axes, key.title, key.axes,#
+               asp = NA, xaxs = "i", yaxs = "i", las = 1,#
+               axes = TRUE, frame.plot = axes)#
+#
+.filled.contour(x, y, z, levels, col)
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
+               y = seq(0, 1, length.out = ncol(z)),#
+               z,#
+               xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),#
+               levels = pretty(zlim, nlevels), nlevels = 20,#
+               color.palette = cm.colors,#
+               col = color.palette(length(levels) - 1),#
+               plot.title, plot.axes, key.title, key.axes,#
+               asp = NA, xaxs = "i", yaxs = "i", las = 1,#
+               axes = TRUE, frame.plot = axes, ...)
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
+               y = seq(0, 1, length.out = ncol(z)),#
+               z,#
+               xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),#
+               levels = pretty(zlim, nlevels), nlevels = 20,#
+               color.palette = cm.colors,#
+               col = color.palette(length(levels) - 1),#
+               plot.title, plot.axes, key.title, key.axes,#
+               asp = NA, xaxs = "i", yaxs = "i", las = 1,#
+               axes = TRUE, frame.plot = axes)
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
++                y = seq(0, 1, length.out = ncol(z)),#
++                z,#
++                xlim = range(x, finite = TRUE),#
++                ylim = range(y, finite = TRUE),#
++                zlim = range(z, finite = TRUE),#
++                levels = pretty(zlim, nlevels), nlevels = 20,#
++                color.palette = cm.colors,#
++                col = color.palette(length(levels) - 1),#
++                plot.title, plot.axes, key.title, key.axes,#
++                asp = NA, xaxs = "i", yaxs = "i", las = 1,#
++                axes = TRUE, frame.plot = axes)
+xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),
+xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),
+xlim = range(x, finite = TRUE)
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
+               y = seq(0, 1, length.out = ncol(z)),#
+               z,#
+               xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),#
+               levels = pretty(zlim, nlevels), nlevels = 20,#
+               color.palette = cm.colors,#
+               col = color.palette(length(levels) - 1),#
+               plot.title, plot.axes, key.title, key.axes,#
+               asp = NA, xaxs = "i", yaxs = "i", las = 1,#
+               axes = TRUE, frame.plot = axes)
+filled.contour(x = seq(0, 1, length.out = nrow(z)),#
+               y = seq(0, 1, length.out = ncol(z)),#
+               z,#
+               xlim = range(x, finite = TRUE),#
+               ylim = range(y, finite = TRUE),#
+               zlim = range(z, finite = TRUE),#
+               color.palette = cm.colors,#
+               col = color.palette(length(levels) - 1),#
+               plot.title, plot.axes, key.title, key.axes,#
+               asp = NA, xaxs = "i", yaxs = "i", las = 1,#
+               axes = TRUE, frame.plot = axes)
+matrix = read.table("contourData.dat")
+contour(x,y,z)
+y <- 1:100
+size(matrix)
+nrow(z)
+contour(x,y,z)
+clear
+clc
+contour(x,y,z)
+contour_plot
+contour_plot.R
+z = read.table("contourData.dat")
+z = read.table("contourData.dat")#
+x <- 1:nrow(z)#
+y <- 1:ncol(z)#
+#
+contour(x,y,z)
+z <- read.table("contourData.dat")#
+x <- 1:nrow(z)#
+y <- 1:ncol(z)#
+#
+contour(x,y,z)
+ncol(z)
+nrow(z)
+contour(x,y,z)
+z <- read.table("contourData.dat")#
+x <- 1:ncol(z)#
+y <- 1:nrow(z)#
+#
+contour(x,y,z)
+z <- read.table("contourData.dat")#
+x <- 1:ncol(z)#
+y <- 1:nrow(z)#
+#
+contour(x,y,z)
+.filled.contour(as.double(x), as.double(y), z, as.double(levels), #
+                            col = col)
+z <- read.table("contourData.dat")#
+x <- 1:ncol(z)#
+y <- 1:nrow(z)#
+#
+.filled.contour(as.double(x), as.double(y), z, as.double(levels), col = col)
